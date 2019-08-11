@@ -1,7 +1,7 @@
 const GoogleSpreadsheet = require('google-spreadsheet')
 const credenciais = require('./credentials.json') 
 const {promisify} = require('util')
-const docId = '1jpmfhIbY53MjPeV9DrCgCz47jhcDG2OHEaVLzwYYs3Q'
+const docId = '[insira a sua chave aqui]'
 /*
 const doc = new GoogleSpreadsheet(docId)
 doc.useServiceAccountAuth(credenciais, err => {
